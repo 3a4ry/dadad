@@ -4,10 +4,10 @@ console.log("scrippt by khaled");
 
 
 client.on("ready", () => {
-let channel =     client.channels.get("حط الاي دي حق الروم اللي يحصل بيها الاسبام هنا")
+let channel =     client.channels.get("623184595810254859")
 setInterval(function() {
-channel.send(`حط الكلام اللي تبغاه هنا`);
-}, 30)
+channel.send(`عشري توب`);
+}, 30)ال ال
 })
 
 client.login(process.env.BOT_TOKEN);
